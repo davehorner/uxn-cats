@@ -1,4 +1,4 @@
-( build: uxnasm src/catclock.tal catclock.ram
+( build: uxnasm src/catclock.tal catclock.rom
 | start: uxnemu catclock.rom )
 
 |00 @System/vector $2 &wst $1 &rst $1 &pad $4 &r $2 &g $2 &b $2 &debug $1 &halt $1
